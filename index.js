@@ -89,6 +89,77 @@
 //   return temperatures.filter((temp) => temp <= 0);
 // };console.log(result([-5, 0, 8]));
 
-const result=(products)=>{
-    return 
-}
+// const result=(products)=>{
+//     return products.filter((element)=>element.available===true);
+// };
+// console.log(result([{id: 1, available: true}, {id: 2, available: false}]));
+
+// const findTemperatur=(tempertures)=>{
+//     return tempertures.find((temp)=>temp>30);
+// };console.log(findTemperatur([22, 32, 35]));
+
+// const result=(words)=>{
+//     return words.find((word)=>word.startsWith("b"));
+// };
+// console.log(result(["cat", "book", "bag"]));
+
+// const result=(numbers)=>{
+//     return numbers.findIndex((numb)=>numb<0);
+// };
+// console.log(result([4, -2, -8]));
+
+// const result=(isRead)=>{
+//     return isRead.findIndex((element)=>element.isRead===false);
+// };
+// console.log(result([{isRead: true}, {isRead: false}]));
+
+// const result=(numbers)=>{
+//     return numbers.findLast((numb)=>numb%2===0);
+// };
+// console.log(result([2, 7, 8, 3]));
+
+// const result=(words)=>{
+//     return words.findLast((word)=>word.length>4);
+// };console.log(result(["apple", "cat", "school"]));
+
+// const result=(prices)=>{
+//     return prices.some((price) => price < 1000);
+// };
+// console.log(result([1000, 1200]));
+
+// const result=(text)=>{
+//     return text.some((test)=>test.endsWith("?"));
+// };
+// console.log(result(["Тийм", "Үгүй"]));
+
+// const result=(numbers)=>{
+//     return numbers.every((numb)=>numb>=0 && numb<=100);
+// };
+// console.log(result([0, 75, 100]));
+
+// const result=(text)=>{
+//     return text.every((elemnt)=>elemnt.paid===true);
+// };
+// console.log(result([{paid: true}, {paid: false}]));
+
+// const result=(sum)=>{
+//      return sum.reduce((total, element) => {
+//         return total + element;
+//     }, 0);
+// };console.log(result([1200, 800, 500]));
+
+// const result=(products)=>{
+//        return products.reduce((sum, element) => {
+//         return sum + element.price * element.quantity;
+//     }, 0);
+
+// }; console.log(result([{price: 500, quantity: 2}, {price: 800, quantity: 1}]));
+
+// const result=(temperaturs)=>{
+//     return temperaturs.sort((a,b)=>a-b);
+// }; console.log(result([10, 2, 1]));
+
+// const result=(points)=>{
+//     return points.sort((a,b)=>b-a);
+// };
+// console.log(result([5, 5, 2]));
