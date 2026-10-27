@@ -162,4 +162,4 @@
 // const result=(points)=>{
 //     return points.sort((a,b)=>b-a);
 // };
-// console.log(result([5, 5, 2]));
+// console.log(result([70, 95, 80]));
